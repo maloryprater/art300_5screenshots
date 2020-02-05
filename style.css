@@ -5,30 +5,604 @@ body {
     padding: 0;
 }
 
-.header {
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-
-}
-
 .top-tab {
-    height: 50px;
+    height: 5vh;
+    width: 100vw;
     background-color: red;
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr 3fr .5fr .5fr;
+    grid-template-columns: .1fr .2fr .1fr .2fr .3fr .4fr .6fr .1fr .1fr;
     padding: 5px;
     border: solid white;
     
 }
 
 .logo {
-    
-
     background-color: white;
-    height: 50px;
+    height: 5vh;
+}
 
+.dropdown1 {
+    background-color: white;
+    height: 5vh;
+}
+
+.dropdown2 {
+    background-color: white;
+    height: 5vh;
 }
    
+.dropdown3 {
+    background-color: white; 
+    height: 5vh;
+}
+
+.dropdown4 {
+    background-color: white;
+    height: 5vh;
+}
+
+.top-tab2 {
+    background-color: red;
+    height: 5vh;
+}
+
+.search {
+    background-color: white;
+    height: 5vh;
+}
+
+.sign-in {
+    background-color: white;
+    height: 5vh
+}
+
+.cart {
+    background-color: white;
+    height: 5vh;
+}
+
+.header2 {
+    grid-template-columns: 5fr .5fr .4fr .4fr .4fr .4fr .4fr .4fr .4fr;
+    display: grid;
+    padding: 10px;
+    grid-gap: 5px;
+    background-color: white;
+    height: 3vh;
+}
+
+.long-head {
+    background-color: white;
+    height: 3vh;
+}
+
+.tab1 {
+    background-color: darkgray;
+    height: 3vh;
+}
+
+.tab2 {
+    background-color: darkgray;
+    height: 3vh;
+}
+
+.tab3 {
+    background-color: darkgray;
+    height: 3vh;
+}
+
+.tab4 {
+    background-color: darkgray;
+    height: 3vh;
+}
+
+.tab5 {
+    background-color: darkgray;
+    height: 3vh;
+}
+
+.tab6 {
+    background-color: darkgray;
+    height: 3vh;
+}
+
+.tab7 {
+    background-color: darkgray;
+    height: 3vh;
+}
+
+.tab8 {
+    background-color: darkgray;
+    height: 3vh;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    background-color: white;
+    height: 20vh;
+}
+
+.image1 {
+    background-color: red;
+    height: 17vh;
+    padding: 10px
+}
+
+.image2 {
+    background-color: darkred;
+    height: 17vh;
+    padding: 10px;
+}
+
+.image222 {
+    background-color: darkred;
+    height: 17vh;
+    padding: 10px;
+}
+
+.text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 7px;
+    grid-gap: 3vh;
+    background-color: black;
+    height: 5vh;
+}
+
+.textbox1 {
+    background-color: red;
+    height: 5vh;
+}
+
+.textbox2 {
+    background-color: red;
+    height: 5vh;
+}
+
+.textbox3 {
+    background-color: red;
+    height: 5vh;
+}
+
+.content2 {
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+    background-color: gray;
+    height: 50vh;
+}
+
+.textbox4 {
+    background-color: black;
+    height: 5vh;
+}
+
+
+
+.content3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    background-color: white;
+    height: 50vh;
+}
+
+.image7 {
+    background-color: red;
+    height: 30vh;
+}
+
+.textbox9 {
+    background-color: gray;
+    height: 30vh;
+}
+
+.content4 {
+    display: grid;
+    grid-template-columns: 100fr 1fr 1fr;
+    grid-template-rows: 2fr 4fr 1fr;
+    padding: 300px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    background-color: grey;
+    height: 40vh;
+}
+
+.title1 {
+    background-color: black;
+    height: 5vh;
+}
+
+.content5 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr .5fr;
+    padding: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+    height: 50vh;
+}
+
+.image11 {
+    background-color: gray;
+    height: 20vh;
+}
+
+.image12 {
+    background-color: red;
+    height: 20vh;
+}
+
+.textbox13 {
+    background-color: darkred;
+    height: 5vh;
+}
+
+.textboxset {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 100px;
+    grid-gap: 5px;
+    background-color: white;
+    height: 1vh;
+}
+
+.textbox14 {
+    background-color: red;
+    height: 7vh;
+}
+
+.textbox15 {
+    background-color: red;
+    height: 7vh;
+}
+
+.textbox16 {
+    background-color: red;
+    height: 7vh;
+}
+
+.textbox17 {
+    background-color: red;
+    height: 7vh;
+}
+
+.content6 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 100px;
+    grid-gap: 5px;
+    background-color: white;
+    height: 1vh;
+}
+
+.title2 {
+    background-color: gray;
+    height: 5vh;
+}
+
+.content7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 100px;
+    grid-gap: 5px;
+    background-color: white;
+    height: 20vh;
+}
+
+.image13 {
+    background-color: darkred;
+    height: 25vh;
+}
+
+.image14 {
+    background-color: darkred;
+    height: 25vh;
+}
+
+.image15 {
+    background-color: darkred;
+    height: 25vh;
+}
+
+.image16 {
+    background-color: darkred;
+    height: 25vh;
+}
+
+.content8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 100px;
+    grid-gap: 5px;
+    background-color: white;
+    height: 10vh;
+}
+
+.textbox18 {
+    background-color: black;
+    height: 10vh;
+}
+
+.textbox19 {
+    background-color: black;
+    height: 10vh;
+}
+
+.textbox20 {
+    background-color: black;
+    height: 10vh;
+}
+
+.textbox21 {
+    background-color: black;
+    height: 10vh;
+}
+
+.title3 {
+    background-color: gray;
+    height: 5vh;
+}
+
+.imageset4 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding: 100px;
+    grid-gap: 12px;
+    background-color: white;
+    height: 1vh;
+}
+
+.image17 {
+    background-color: red;
+    height: 25vh;
+}
+
+.image18 {
+    background-color: red;
+    height: 25vh;
+}
+
+.image19 {
+    background-color: red;
+    height: 25vh;
+}
+
+
+.textboxset5 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding: 100px;
+    grid-gap: 12px;
+    background-color: white;
+    height: 1vh;
+}
+
+.textbox22 {
+    background-color: black;
+    height: 5vh;
+}
+
+.textbox23 {
+    background-color: black;
+    height: 5vh;
+}
+
+.textbox24 {
+    background-color: black;
+    height: 5vh;
+}
+
+.tabset1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 100px;
+    grid-gap: 12px;
+    background-color: white;
+    height: 1vh;
+}
+
+.tab9 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab10 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab11 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab12 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab13 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab14 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tabset2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 100px;
+    grid-gap: 12px;
+    background-color: white;
+    height: 1vh;
+}
+
+.tab15 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab16 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab17 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab18 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab19 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab20 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tabset3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 100px;
+    grid-gap: 12px;
+    background-color: white;
+    height: 1vh;
+}
+
+.tab21 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab22 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab23 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab24 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab25 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab26 {
+    background-color: black;
+    height: 3vh;
+}
+
+.textbox22 {
+    background-color: gray;
+    height: 5vh;
+}
+
+.tabset4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 100px;
+    grid-gap: 12px;
+    background-color: white;
+    height: 1vh;
+}
+
+.tab27 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab28 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab29 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab30 {
+    background-color: black;
+    height: 3vh;
+}
+
+.tab31 {
+    background-color: black;
+    height: 3vh;
+}
+
+.textbox23 {
+    background-color: gray;
+    height: 5vh;
+}
+
+.textbox24 {
+    background-color: gray;
+    height: 5vh;
+}
+
+.textbox25 {
+    background-color: black;
+    height: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+}
+
+.top-tab {
+    height: 5vh;
+    width: 100vw;
+    background-color: red;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: .1fr .2fr .1fr .2fr .3fr .4fr .6fr .1fr .1fr;
+    padding: 5px;
+    border: solid white;
+    
