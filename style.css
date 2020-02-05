@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.top-tab {
+    height: 50px;
+    background-color: red;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr 3fr .5fr .5fr;
+    padding: 5px;
+    border: solid white;
+    
+}
+
+.logo {
+    
+
+    background-color: white;
+    height: 50px;
+
+}
+   
