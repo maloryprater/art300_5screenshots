@@ -1,0 +1,970 @@
+body {
+    font-family: sans-serif;
+    background-color: lightyellow;
+    margin: 0;
+    padding: 0;
+}
+
+.first-tab {
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr .5fr 1fr .5fr;
+    grid-gap: 5px;
+    height: 4vh;
+    background-color: darkslateblue;
+    padding: 5px;
+}
+
+.logo {
+    background-color: cyan;
+    height: 4vh;
+}
+
+.search-bar {
+    background-color: plum;
+    height: 4vh;
+}
+
+.info2 {
+    background-color: plum;
+    height: 4vh;
+}
+
+.info3 {
+    background-color: cyan;
+    height: 4vh;
+}
+
+.info4 {
+    background-color: plum;
+    height: 4vh;
+}
+
+.info5 {
+    background-color: cyan;
+    height: 4vh;
+}
+
+.second-tab {
+    display: grid;
+    grid-template-columns: 2.1fr 1fr 1fr .5fr 1fr .5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    height: 4vh;
+    background-color: darkslateblue;
+    padding: 5px;
+}
+
+.info1 {
+    background-color: plum;
+    height: 4vh;
+}
+
+.tab1 {
+    background-color: plum;
+    height: 4vh;
+}
+
+.tab2 {
+    background-color: cyan;
+    height: 4vh;
+}
+
+.tab3 {
+    background-color: plum;
+    height: 4vh;
+}
+
+.tab4 {
+    background-color: cyan;
+    height: 4vh;
+}
+
+.tab5 {
+    background-color: plum;
+    height: 4vh;
+}
+
+.tab6 {
+    background-color: cyan;
+    height: 4vh;
+}
+
+.tab7 {
+    background-color: plum;
+    height: 4vh;
+}
+
+.tab8 {
+    background-color: cyan;
+    height: 4vh;
+}
+
+.tab9 {
+    background-color: plum;
+    height: 4vh;
+}
+
+.tab10 {
+    background-color: cyan;
+    height: 4vh;
+}
+
+.tab11 {
+    background-color: plum;
+    height: 4vh;
+}
+
+.main {
+    grid-template-columns: 1fr 3fr;
+    display: grid;
+    background-color: darkslateblue;
+    height: 400vh;
+    padding-top: 10px;
+    margin-top: 10px;
+    border: solid darkslateblue;
+
+
+
+.sidebar {
+    background-color: darkslateblue;
+    height: 400vh;
+    padding: 7px
+}
+
+
+.text1 {
+    background-color: cyan;
+    height: 2vh;
+    border: solid darkslateblue;
+}
+
+.checkbox1 {
+    background-color: plum;
+    height: 5vh;
+    width: 19vw;
+    border: solid darkslateblue;
+}
+
+.checkbox2 {
+    background-color: cyan;
+    height: 7vh;
+}
+
+.checkbox3 {
+    background-color: lightyellow;
+    height: 3vh;
+    width: 10vw;
+}
+
+.checkbox4 {
+    background-color: cyan;
+    height: 7vh;
+    width: 11vw;
+}
+
+.departments {
+    background-color: plum;
+    height: 50vh;
+}
+
+.sidebar1 {
+    background-color: cyan;
+    height: 10vh;
+    width: 20vw;
+}
+
+.sidebar2 {
+    background-color: lightyellow;
+    height: 33vh;
+    width: 23vw;
+}
+
+.sidebar3 {
+    background-color: cyan;
+    height: 4vh;
+    width: 22vw;
+}
+
+.sidebar4 {
+    background-color: plum;
+    height: 9vh;
+    width: 16vw;
+}
+
+.sidebar5 {
+    background-color: cyan;
+    height: 12vh;
+    width: 17vw;
+}
+
+.sidebar6 {
+    background-color: lightyellow;
+    height: 12vh;
+    width: 15vw;
+}
+
+.sidebar7 {
+    background-color: cyan;
+    height: 5vh;
+    width: 17vw;
+}
+
+.sidebar8 {
+    background-color: plum;
+    height: 9vh;
+    width: 18vw;
+}
+
+.sidebar9 {
+    background-color: cyan;
+    height: 5vh;
+    width: 19vw;
+}
+
+.sidebar10 {
+    background-color: lightyellow;
+    height: 4vh;
+    width: 22vw;
+}
+
+.sidebar11 {
+    background-color: cyan;
+    height: 7vh;
+    width: 7vw;
+}
+
+.content {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: lightyellow;
+    width: 60vw;
+    margin: auto;
+  
+    min-height: 500px;
+    margin-top: 2vw;
+    padding: 15px;
+  }
+
+.image1 {
+    background-color: plum;
+    height: 15vh;
+}
+
+.image2 {
+    background-color: darkslateblue;
+    height: 15vh;
+}
+
+.image3 {
+    background-color: plum;
+    height: 15vh;  
+}
+
+.image4 {
+    background-color: darkslateblue;
+    height: 15vh;
+}
+
+.blank {
+    background-color: lightyellow;
+    height: 15vh;
+}
+
+
+
+
+.image5 {
+    background-color: cyan;
+    height: 15vh;
+}
+
+.image6 {
+    background-color: cyan;
+    height: 15vh;
+}
+
+.image7 {
+    background-color: cyan;
+    height: 15vh;  
+}
+
+.image8 {
+    background-color: cyan;
+    height: 15vh;
+}
+
+.image9 {
+    background-color: cyan;
+    height: 15vh;
+}
+
+
+.text3 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text4 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text5 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text6 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text7 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.image10 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image11 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image12 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image13 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image14 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text8 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text9 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text10 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text11 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text12 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.image15 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image16 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image17 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image18 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image19 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text13 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text14 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text15 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text16 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text17 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.image20 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image21 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image22 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image23 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image24 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text18 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text19 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text20 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text21 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text22 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.image25 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image26 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image27 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image28 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image29 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text23 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text24 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text25 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text26 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text27 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.image30 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image31 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image32 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image33 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image34 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text28 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text29 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text30 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text31 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text32 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.image35 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image36 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image37 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image38 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image39 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text33 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text34 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text35 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text36 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text37 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.image40 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image41 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image42 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image43 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image44 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text38 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text39 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text40 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text41 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text42 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.image45 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image46 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image47 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image48 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image49 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text43 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text44 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text45 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text46 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text47 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.image50 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image51 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image52 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image53 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image54 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text48 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text49 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text50 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text51 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.text52 {
+    background-color: darkslateblue;
+    height: 20vh;
+}
+
+.image55 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image56 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image57 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image58 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image59 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text53 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text54 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text55 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text56 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.text57 {
+    background-color: plum;
+    height: 20vh;
+}
+
+.image60 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image61 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image62 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image63 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image64 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.text58 {
+    background-color: darkslateblue;
+    height: 10vh;
+}
+
+.text59 {
+    background-color: darkslateblue;
+    height: 10vh;
+}
+
+.text60 {
+    background-color: plum;
+    height: 10vh;
+}
+
+.text61 {
+    background-color: darkslateblue;
+    height: 10vh;
+}
+
+.text62 {
+    background-color: darkslateblue;
+    height: 10vh;
+}
+
+
+.tab12 {
+    background-color: lightyellow;
+    height: 10vh;
+}
+
+.tab13 {
+    background-color: darkslateblue;
+    height: 3vh;
+}
+
+.tab14 {
+    background-color: plum;
+    height: 2vh;
+}
+
+.text63 {
+    background-color: darkslateblue;
+    height: 4vh;
+}
+
+.space {
+    background-color: lightyellow;
+    height: 10vh;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: 20vh;
+    background-color: darkslateblue;
+    padding: 40px;
+    margin-top: 1234px;
+}
+
+.space2 {
+    background-color: darkslateblue;
+    height: vh;
+}
+
+.image65 {
+    background-color: cyan;
+    height: 15vh;
+}
+
+.image66 {
+    background-color: cyan;
+    height: 25vh;
+}
+
+.image67 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.image68 {
+    background-color: cyan;
+    height: 20vh;
+}
+
+.bottom-tab {
+    display: grid;
+    grid-template-columns: 1fr .3fr .4fr .5fr 1fr;
+    grid-gap: 20px;
+    height: 5vh;
+    background-color: darkslateblue;
+    padding: 10px;
+}
+
+.space3 {
+    background-color: darkslateblue;
+    height: 5vh;
+}
+
+.tab15 {
+    background-color: lightyellow;
+    height: 5vh;
+}
+
+.tab16 {
+    background-color: lightyellow;
+    height: 5vh;
+}
+
+.tab17 {
+    background-color: lightyellow;
+    height: 5vh;
+}
+
+.space4 {
+    background-color: darkslateblue;
+    height: 5vh;
+}

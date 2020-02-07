@@ -1,0 +1,333 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.top-tab {
+    display: grid;
+    grid-template-columns: .5fr 1fr 2fr 3fr 2fr .5fr .5fr .5fr .5fr;
+    grid-gap: 5px;
+    height: 4vh;
+    background-color: white;
+    padding: 5px;
+}
+
+.left-tab {
+    background-color: yellow;
+    height: 6vh;
+}
+
+.logo {
+    background-color: green;
+    height: 6vh;
+}
+
+.space {
+    background-color: white;
+    height: 6vh;
+}
+
+.search {
+    background-color: yellowgreen;
+    height: 6vh;
+}
+
+.space2 {
+    background-color: white;
+    height: 6vh;
+}
+
+.item1 {
+    background-color: seagreen;
+    height: 6vh;
+}
+
+.item2 {
+    background-color: seagreen;
+    height: 6vh;
+}
+
+.item3 {
+    background-color: seagreen;
+    height: 6vh;
+}
+
+.item4 {
+    background-color: seagreen;
+    height: 6vh;
+}
+
+.main {
+    grid-template-columns: 1fr 3fr;
+    display: grid;
+    background-color: white;
+    height: 400vh;
+    padding-top: 10px;
+    margin-top: 10px;
+    border: solid white;
+    position: fixed;
+}
+
+.sidebar1 {
+    background-color: seagreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar2 {
+    background-color: seagreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar3 {
+    background-color: seagreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar4 {
+    background-color: seagreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar5 {
+    background-color: seagreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar6 {
+    background-color: seagreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar7 {
+    background-color: darkgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar8 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar9 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar10 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar11 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar12 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar13 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar14 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar15 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar16 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar17 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar18 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar19 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar20 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar21 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar22 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar23 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar24 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar25 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar26 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar27 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar28 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.sidebar29 {
+    background-color: yellowgreen;
+    height: 5vh;
+    border: solid white;
+}
+
+.content {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 5fr 3fr;
+    background-color: darkolivegreen;
+    width: 70vw;
+  
+    height: 500px;
+    margin-top: 2vw;
+    padding: 15px;
+  }
+
+  .video {
+      background-color: darkgreen;
+      height: 30vh;
+  }
+
+  .imageset {
+     background-color: darkolivegreen;
+     height: 30vh;
+  }
+
+  .image1 {
+      background-color: yellowgreen;
+      height: 12vh;
+      border: solid darkolivegreen;
+  }
+
+  .image2 {
+    background-color: seagreen;
+    height: 12vh;
+    border: solid darkolivegreen;
+}
+
+.content2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: darkolivegreen;
+    width: 10vw;
+  
+    height: 10vh;
+    margin-top: 2vw;
+    padding: 15px;
+}
+
+.thumbnail1 {
+    background-color: seagreen;
+    height: 20vh;
+    width: 15vw;
+}
+
+.thumbnail2 {
+    background-color: seagreen;
+    height: 20vh;
+    width: 15vh;
+}
+
+
+
+.thumbnail3 {
+    background-color: seagreen;
+    height: 20vh;
+    width: 15vh;
+}
+
+.thumbnail4 {
+    background-color: seagreen;
+    height: 20vh;
+    width: 15vw;
+}
+
+.content3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: red;
+    width: 10vw;
+  
+    height: 10vh;
+    padding: 15px;
+}
+
+.text1 {
+    background-color: yellowgreen;
+    height: 7vh;
+}

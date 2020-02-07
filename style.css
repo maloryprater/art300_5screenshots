@@ -589,20 +589,6 @@ body {
 
 
 
-body {
-    font-family: sans-serif;
-    background-color: gold;
-    margin: 0;
-    padding: 0;
-}
 
-.top-tab {
-    height: 5vh;
-    width: 100vw;
-    background-color: red;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: .1fr .2fr .1fr .2fr .3fr .4fr .6fr .1fr .1fr;
-    padding: 5px;
-    border: solid white;
-    
+
+
