@@ -67,7 +67,6 @@ body {
     padding-top: 10px;
     margin-top: 10px;
     border: solid white;
-    position: fixed;
 }
 
 .sidebar1 {
@@ -247,12 +246,12 @@ body {
 .content {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 5fr 3fr;
+    grid-template-columns: 2fr 1fr;
     background-color: darkolivegreen;
-    width: 70vw;
+    width: 50vw;
   
-    height: 500px;
-    margin-top: 2vw;
+    height: 40vh;
+    margin-top: 3px;
     padding: 15px;
   }
 
@@ -281,11 +280,11 @@ body {
 .content2 {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     background-color: darkolivegreen;
-    width: 10vw;
+    width: 70vw;
   
-    height: 10vh;
+    height: 200vh;
     margin-top: 2vw;
     padding: 15px;
 }
@@ -293,13 +292,11 @@ body {
 .thumbnail1 {
     background-color: seagreen;
     height: 20vh;
-    width: 15vw;
 }
 
 .thumbnail2 {
     background-color: seagreen;
     height: 20vh;
-    width: 15vh;
 }
 
 
@@ -307,27 +304,363 @@ body {
 .thumbnail3 {
     background-color: seagreen;
     height: 20vh;
-    width: 15vh;
 }
 
 .thumbnail4 {
     background-color: seagreen;
     height: 20vh;
-    width: 15vw;
 }
 
-.content3 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: red;
-    width: 10vw;
-  
-    height: 10vh;
-    padding: 15px;
-}
 
 .text1 {
     background-color: yellowgreen;
     height: 7vh;
+}
+
+.text2 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text3 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text4 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.thumbnail5 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+.thumbnail6 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+
+
+.thumbnail7 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+.thumbnail8 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+.thumbnail9 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+.text5 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text6 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text7 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text8 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.thumbnai9 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+.thumbnail10 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+
+
+.thumbnail11 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+.thumbnail12 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+
+.text9 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text10 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text11 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text12 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.thumbnail13 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+.thumbnail14 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+
+
+.thumbnail15 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+.thumbnail16 {
+    background-color: seagreen;
+    height: 20vh;
+}
+
+
+.text13 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text14 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text15 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.text16 {
+    background-color: yellowgreen;
+    height: 7vh;
+}
+
+.post1 {
+    background-color: teal;
+    height: 10vh;
+}
+
+.post2 {
+    background-color: teal;
+    height: 10vh;
+}
+
+.post3 {
+    background-color: teal;
+    height: 10vh;
+}
+
+.post4 {
+    background-color: teal;
+    height: 10vh;
+}
+
+.thumbnail17 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail18 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail19 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail20 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.text17 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text18 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text19 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text20 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.post5 {
+    background-color: teal;
+    height: 15vh;
+}
+
+.post6 {
+    background-color: teal;
+    height: 15vh;
+}
+
+.post7 {
+    background-color: teal;
+    height: 15vh;
+}
+
+.post8 {
+    background-color: teal;
+    height: 15vh;
+}
+
+.thumbnail21 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail22 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail23 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail24 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.text21 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text22 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text23 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text24 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.thumbnail25 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail26 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail27 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail28 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.text25 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text26 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text27 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text28 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.thumbnail29 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail30 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail31 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.thumbnail32 {
+    background-color: seagreen;
+    height: 15vh;
+}
+
+.text29 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text30 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text31 {
+    background-color: yellowgreen;
+    height: 10vh;
+}
+
+.text32 {
+    background-color: yellowgreen;
+    height: 10vh;
 }
