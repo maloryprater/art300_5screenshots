@@ -490,39 +490,31 @@ body {
 
 .content10 {
     background-color: white;
-    height: 20vh;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr 1fr;
-    margin-top: -10px;
-    margin-left: -157px;
+    grid-gap: 10px;
 }
 
-.imageset3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: red;
-    grid-gap: 10px;
-    height: 20vh;
-}
+
 
 .image9 {
-    background-color: darkblue;
+    background-color: olive;
     height: 20vh;
 }
 
 .image10 {
     background-color: lightblue     
-    height: 20vh;
+    height 20vh;
 }
 
 .image11 {
     background-color: pink     
-    height: 20vh;
+    height 20vh;
 }
 
 .content11 {
-    background-color: purple;
-    height: 20vh;
+    background-color: lavender;
+    height: 10vh;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr 1fr;
     margin-top: -10px;
@@ -531,22 +523,25 @@ body {
 
 .textbox33 {
     background-color: lightblue     
-    height: 20vh;
+    height 20vh;
 }
 
 .textbox34 {
-    background-color: lightblue     
-    height: 20vh;
+    background-color: navy     
+    height 20vh;
 }
 
 
 .textbox35 {
     background-color: lightblue     
-    height: 20vh;
+    height 80vh;
 }
 
 
-
+.advertisement3 {
+    background-color: gray;
+    height: 20vh;
+}
 
 
 
