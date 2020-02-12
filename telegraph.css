@@ -1,0 +1,666 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.top-tab {
+    display: grid;
+    background-color: white;
+    height: 9vh;
+    padding: 5px;
+}
+
+.top-tab-grid {
+    display: grid;
+    grid-template-columns: 2fr .3fr;
+    grid-gap: 25px;
+    background-color: white;
+    height: 12vh;
+    padding: 16px;
+
+}
+
+.title-image {
+    background-color: purple;
+    height: 10vh;
+    margin-left: 200px;
+}
+
+
+.side-text {
+    background-color: lavender;
+    height: 6vh;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.headlines {
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 4fr;
+    background-color: white;
+    height: 12vh;
+    padding: 16px; 
+}
+
+.headline1 {
+    background-color: lavender;
+    height: 10vh;
+}
+
+.headline2 {
+    background-color: darkmagenta;
+    height: 10vh;
+}
+
+.headline3 {
+    background-color: lavender;
+    height: 10vh;
+}
+
+.headline4 {
+    background-color: darkmagenta;
+    height: 10vh;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: .4fr .4fr .4fr .4fr .4fr .4fr .4fr .4fr .4fr .4fr .4fr;
+    background-color: white;
+    grid-gap: 6px;
+    padding: 16px; 
+    margin-right: 500px;
+}
+
+.tab1 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab2 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab3 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab4 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab5 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab6 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab7 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab8 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab9 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab10 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.tab11 {
+    background-color: darkslateblue;
+    height: 2vh;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: 2fr 4fr 3fr;
+    background-color: white;
+    grid-gap: 6px;
+    padding: 16px; ;
+}
+
+.textbox1 {
+    background-color: #254dd1;
+    height: 27vh;
+}
+
+.image2 {
+    background-color: mediumpurple;
+    height: 30vh;
+}
+
+.content2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap: 1px;
+    margin-top: -430px;
+    margin-right: -340px;
+    margin-left: 20px;
+}
+
+.textbox2 {
+    background-color: darkmagenta;
+    height: 10vh;
+}
+
+.textbox3 {
+    background-color: #37bcdd;
+    height: 10vh;
+}
+
+.textbox4 {
+    background-color: darkmagenta;
+    height: 10vh;
+}
+
+.textbox5 {
+    background-color: 
+    
+    
+    #37bcdd;
+    height: 10vh;
+}
+
+.content3 {
+    display: grid;
+    grid-template-columns: 1fr .5fr 1fr;
+    grid-gap: 10px;
+    background-color: purple;
+    padding: 20px;
+    margin-left: -155px;
+    margin-top: -340px;
+
+}
+
+.textbox6 {
+    background-color: gray;
+    height: 23vh;
+}
+
+.image3 {
+    background-color: lightpink;
+    height: 23vh;
+}
+
+.textboxset {
+    background-color: purple;
+    height: 30vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.textbox7 {
+    background-color: lightblue;
+    height: 10vh;
+}
+
+.textbox10 {
+    background-color: indigo;
+    height: 10vh;
+}
+
+.textbox11 {
+    background-color: lavender;
+    height: 10vh;
+}
+
+
+.textbox8 {
+    background-color: lavenderblush;
+    height: 10vh;
+    margin-top: -180px;
+}
+
+.textbox9 {
+    background-color: #37bcdd;
+    height: 10vh;
+    margin-top: -180px;
+}
+
+.content4 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+    padding: 20px;
+    margin-left: -155px;
+}
+
+.textbox12 {
+    background-color: purple;
+    height: 30vh;
+    margin-left: -342px;
+    margin-right: 300px;
+    margin-top: -30px;
+}
+
+.image4 {
+    background-color: lightgrey;
+    height: 30vh;
+    margin-left: -300px;
+    margin-right: 250px;
+    margin-top: -30px;
+}
+
+.content5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    margin-left: -3px;
+    margin-right: -360px;
+    margin-top: -20px;
+    
+}
+
+.textbox13 {
+    background-color: skyblue;
+    height: 10vh;
+}
+
+.textbox14 {
+    background-color: skyblue;
+    height: 10vh;
+}
+
+.textbox15 {
+    background-color: skyblue;
+    height: 10vh;
+}
+
+.textbox16 {
+    background-color: skyblue;
+    height: 10vh;
+}
+
+.content6 {
+    background-color: white;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 90px;
+    margin-left: -157px;
+    
+}
+
+.textbox17 {
+    background-color: skyblue;
+    height: 10vh;
+}
+
+.textbox18 {
+    background-color: skyblue;
+    height: 10vh;
+}
+
+.textbox19 {
+    background-color: skyblue;
+    height: 10vh;
+}
+
+
+.textbox20 {
+    background-color: grey;
+    height: 10vh;
+}
+
+.textbox21 {
+    background-color: turquoise;
+    height: 10vh;
+}
+
+.textbox22 {
+    background-color: darkorchid;
+    height: 10vh;
+}
+
+.advertisement {
+    background-color: gray;
+    height: 20vh;
+    margin-top: 270px;
+    margin-left: -500px;
+    margin-right: -20px;
+}
+
+
+
+.tab12 {
+    background-color: crimson;
+    height: 3vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.tab13  {
+    background-color: orange;
+    height: 3vh;
+    margin-left: 20px;
+    margin-right: -150px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.content8 {
+    background-color: white;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 130px;
+    margin-left: -157px;
+}
+
+.textboxset1 {
+    background-color: white;
+    height: 30vh;
+}
+
+.image5 {
+    background-color: gray;
+    height: 12vh;
+}
+
+.textbox26 {
+    background-color: navy;
+    height: 8vh;
+}
+
+.textboxset2 {
+    background-color: white;
+    height: 30vh;
+}
+
+.textbox23 {
+    background-color: navy;
+    height: 6vh;
+}
+
+.textbox24 {
+    background-color: darkmagenta;
+    height: 6vh;
+}
+
+.textbox25 {
+    background-color: gray;
+    height: 6vh;
+}
+
+.textboxset3 {
+    height: 10vh;
+}
+.image6 {
+    background-color: lightblue;
+    height: 12vh;
+}
+.textbox30 {
+    background-color: navy;
+    height: 7vh;
+}
+
+.textboxset4 {
+    background-color: white;
+    height: 10vh;
+}
+
+.textbox27 {
+    background-color: gray;
+    height: 6vh;
+}
+
+.textbox28 {
+    background-color: lightblue;
+    height: 6vh;
+}
+
+.textbox29 {
+    background-color: gray;
+    height: 6vh;
+}
+
+.content9 {
+    background-color: white;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    margin-top: -10px;
+    margin-left: -157px;
+}
+
+.image7 {
+    background-color: darkblue;
+    height: 10vh;
+}
+
+.textbox31 {
+    background-color: lightblue;
+    height: 10vh;
+}
+
+.image8 {
+    background-color: darkblue;
+    height: 10vh;
+}
+
+.textbox32 {
+    background-color: lightblue;
+    height: 10vh;
+}
+
+.advertisement2 {
+    background-color: gray;
+    height: 20vh;
+    margin-top: -60px;
+}
+
+.tab14 {
+    background-color: crimson;
+    height: 3vh;
+    margin-top: 20px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.tab15 {
+    background-color: darkblue;
+    height: 3vh;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.content10 {
+    background-color: white;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    margin-top: -10px;
+    margin-left: -157px;
+}
+
+.imageset3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: red;
+    grid-gap: 10px;
+    height: 20vh;
+}
+
+.image9 {
+    background-color: darkblue;
+    height: 20vh;
+}
+
+.image10 {
+    background-color: lightblue     
+    height: 20vh;
+}
+
+.image11 {
+    background-color: pink     
+    height: 20vh;
+}
+
+.content11 {
+    background-color: purple;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    margin-top: -10px;
+    margin-left: -157px;
+}
+
+.textbox33 {
+    background-color: lightblue     
+    height: 20vh;
+}
+
+.textbox34 {
+    background-color: lightblue     
+    height: 20vh;
+}
+
+
+.textbox35 {
+    background-color: lightblue     
+    height: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rightsidebar {
+    background-color: lightpink;
+    height: 80vh;
+    padding: 20px;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.title {
+    background-color: lightskyblue;
+    height: 5vh;
+}
+
+.photo1 {
+    background-color: lightslategray;
+    height: 14vh;
+}
+
+.info1 {
+    background-color: turquoise;
+    height: 7vh;
+}
+
+.info2 {
+    background-color: orchid;
+    height: 7vh;
+}
+
+.info-panel {
+    background-color: white;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+.info3 {
+    background-color: white;
+    height: 10vh;
+}
+
+.info4 {
+    background-color: black;
+    height: 10vh;
+}
+
+.info5 {
+    background-color: black;
+    height: 10vh;
+}
+
+.info6 {
+    background-color: white;
+    height: 10vh;
+}
+
+.photo2 {
+    background-color: crimson;
+    height: 25vh;
+}
+
+.type1 {
+    background-color: skyblue;
+    height: 2vh;
+}
+
+.type2 {
+    background-color: skyblue;
+    height: 2vh;
+}
+
+.type3 {
+    background-color: skyblue;
+    height: 3vh;
+}
+
+.type4 {
+    background-color: skyblue;
+    height: 8vh;
+}
+
+.photo-panel {
+    background-color: white;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.photo3 {
+    background-color: crimson ;
+    height: 10vh;
+}
+
+
+.photo5 {
+    background-color: crimson;
+    height: 10vh;
+}
+
+.photo4 {
+    background-color: black;
+    height: 10vh;
+}
+
+.photo6 {
+    background-color: black;
+    height: 10vh;
+}
+
